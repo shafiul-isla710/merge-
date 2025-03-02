@@ -17,3 +17,36 @@
     color: black;
     line-height: 1.5;
 }
+.nav{
+    width: 90%;
+    background-color:cadetblue;
+    padding:10px;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.left{
+    margin-left:10px;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    gap:10px;
+}
+#leftA{
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+}
+.right{
+    margin-right:10px;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    gap:10px;
+}
+#rightA{
+    color:black;
+    text-decoration:none;
+    font-size:20px;
+}
